@@ -1,0 +1,24 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[user]
+  name = Louis Acresti
+  email = louis.acresti@gmail.com
+[status]
+  relativePaths = false
+[core]
+  excludesfile = /home/louman/.gitignore
+[alias]
+  d = diff
+  dc = diff --cached
+  lc = log ORIG_HEAD.. --stat --no-merges
+  gl = log --oneline --decorate --stat --graph
+  st = status -sb
+  prune-all = !git remote| xargs -n 1 git remote prune
+  whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
+  whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  submodule-rm = !git-submodule-rm
+  today = log --since=midnight --author='Roberto Bonvallet' --oneline
+  da = diffall
