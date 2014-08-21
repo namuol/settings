@@ -1,0 +1,5 @@
+{
+	"cmd": ["cake", "build"],
+	"selector": "source.coffee",
+	"working_dir": "$project_path"
+}

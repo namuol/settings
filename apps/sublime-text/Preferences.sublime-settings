@@ -4,17 +4,16 @@
   "ignored_packages":
   [
     "Haxe",
-    "Dark Pastel Color Scheme",
     "Git",
     "Alignment",
-    "AsciiDoc",
     "CoffeeScript",
+    "Dark Pastel Color Scheme",
     "Vintage",
+    "AsciiDoc",
     "Gist"
   ],
   "overlay_scroll_bars": "enabled",
   "tab_size": 2,
   "theme": "Soda Dark.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_spaces_on_save": true
+  "translate_tabs_to_spaces": true
 }
