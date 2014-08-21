@@ -29,10 +29,11 @@ function allToCoffee() {
 }
 
 alias fixsound='pulseaudio -k;pulseaudio --start'
+alias sublime_text='subl'
 alias st='sublime_text'
 alias isodate='node -e "console.log((new Date()).toISOString())"'
 
 alias spiffyshark='ssh -i $HOME/.ssh/spiffyshark.pem ubuntu@ec2-23-21-39-255.compute-1.amazonaws.com'
 alias ..='cd ..'
 alias timestamp='date -u +"%Y-%m-%dT%H:%M:%SZ"'
-alias ccat='pygmentize -g'
+alias ccat='pygmentize -g -f 256 -O style=native'
